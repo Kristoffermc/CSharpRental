@@ -12,5 +12,10 @@ namespace CustomerAppBLL
         {
             get { return new CustomerService(new DALFacade()); }
         }
+
+        public IOrderSerive OrderService
+        {
+            get { return new OrderService(new DALFacade()); }
+        }
     }
 }
