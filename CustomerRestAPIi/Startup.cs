@@ -29,37 +29,39 @@ namespace CustomerRestAPIi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
+                loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+                loggerFactory.AddDebug();
+
                 app.UseDeveloperExceptionPage();
                 var facade = new BLLFacade();
-                var cust = facade.CustomerService.Create(
-                    new CustomerBO()
+
+                /*var address = facade.AddressService.Create(
+                    new AddressBO()
                     {
-                        FirstName = "Lars",
-                        LastName = "Bilde",
-                        Address = "EASV"
+                        City = "Skagen",
+                        Street = "Skagenvej",
+                        Number = "1"
                     });
 
-                facade.CustomerService.Create(
-                    new CustomerBO()
+                var address2 = facade.AddressService.Create(
+                    new AddressBO()
                     {
-                        FirstName = "Peter",
-                        LastName = "Pikfjæs",
-                        Address = "Rørkjær"
+                        City = "Esbjerg",
+                        Street = "Nygårdsvej",
+                        Number = "200"
                     });
 
-
-                facade.OrderService.Create(
-                    new OrderBO()
+                var address3 = facade.AddressService.Create(
+                    new AddressBO()
                     {
-                        DeliveryDate = DateTime.Now.AddMonths(1),
-                        OrderDate = DateTime.Now.AddMonths(-1),
-                        CustomerID = cust.Id
-                    });
-
+                        City = "Tjæreborg",
+                        Street = "Upsvej",
+                        Number = "122a"
+                    });*/
             }
 
             app.UseMvc();

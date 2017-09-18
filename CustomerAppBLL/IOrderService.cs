@@ -4,7 +4,7 @@ using CustomerAppBLL.BusinessObjects;
 
 namespace CustomerAppBLL
 {
-    public interface IOrderSerive
+    public interface IOrderService
     {       
         //C
         OrderBO Create(OrderBO order);

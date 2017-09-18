@@ -1,5 +1,15 @@
 ﻿<Properties StartupConfiguration="{ECC4D19F-65C7-4F7D-8AB0-9C47B5239F22}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomerAppBLL/Services/CustomerService.cs">
+    <Files>
+      <File FileName="CustomerAppDAL/IAddressRepository.cs" Line="7" Column="19" />
+      <File FileName="CustomerAppDAL/UOW/UnitOfWork.cs" Line="19" Column="32" />
+      <File FileName="CustomerAppDAL/Repositories/CustomerRepository.cs" Line="43" Column="10" />
+      <File FileName="CustomerAppBLL/Services/CustomerService.cs" Line="85" Column="4" />
+      <File FileName="CustomerAppBLL/BLLFacade.cs" Line="13" Column="29" />
+      <File FileName="CustomerRestAPIi/Startup.cs" Line="53" Column="18" />
+      <File FileName="CustomerRestAPIi/Controllers/CustomersController.cs" Line="16" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

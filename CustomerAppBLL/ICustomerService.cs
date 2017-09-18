@@ -5,9 +5,6 @@ using System.Text;
 
 namespace CustomerAppBLL
 {
-    /// <summary>
-    /// I made a Contract!!!!
-    /// </summary>
     public interface ICustomerService
     {
         //C
