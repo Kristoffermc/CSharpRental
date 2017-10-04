@@ -1,4 +1,4 @@
-﻿using CustomerAppDAL.Entities;
+﻿    using CustomerAppDAL.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
@@ -22,7 +22,7 @@ namespace CustomerAppDAL.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server = tcp:cs2017b.database.windows.net, 1433; Initial Catalog = RentalDB; Persist Security Info = False; User ID = flotfyrmedselerpaa; Password =Snk65uzx; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;");
+                optionsBuilder.UseSqlServer(@"Server=tcp:customerserver.database.windows.net,1433;Initial Catalog=CustomerDB;Persist Security Info=False;User ID=kris8273;Password=Snk65uzx;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
 

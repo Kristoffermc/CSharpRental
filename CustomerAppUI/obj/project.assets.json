@@ -7821,10 +7821,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppUI/CustomerAppUI.csproj",
+      "projectUniqueName": "/Users/Kristoffers/Projects/CSharpRental/CustomerAppUI/CustomerAppUI.csproj",
       "projectName": "CustomerAppUI",
-      "projectPath": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppUI/CustomerAppUI.csproj",
-      "outputPath": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppUI/obj",
+      "projectPath": "/Users/Kristoffers/Projects/CSharpRental/CustomerAppUI/CustomerAppUI.csproj",
+      "outputPath": "/Users/Kristoffers/Projects/CSharpRental/CustomerAppUI/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -7832,8 +7832,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppBLL/CustomerAppBLL.csproj": {
-              "projectPath": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppBLL/CustomerAppBLL.csproj"
+            "/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/CustomerAppBLL.csproj": {
+              "projectPath": "/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/CustomerAppBLL.csproj"
             }
           }
         }

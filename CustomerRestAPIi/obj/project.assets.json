@@ -29005,10 +29005,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerRestAPIi/CustomerRestAPIi.csproj",
+      "projectUniqueName": "/Users/Kristoffers/Projects/CSharpRental/CustomerRestAPIi/CustomerRestAPIi.csproj",
       "projectName": "CustomerRestAPIi",
-      "projectPath": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerRestAPIi/CustomerRestAPIi.csproj",
-      "outputPath": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerRestAPIi/obj",
+      "projectPath": "/Users/Kristoffers/Projects/CSharpRental/CustomerRestAPIi/CustomerRestAPIi.csproj",
+      "outputPath": "/Users/Kristoffers/Projects/CSharpRental/CustomerRestAPIi/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -29016,8 +29016,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppBLL/CustomerAppBLL.csproj": {
-              "projectPath": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppBLL/CustomerAppBLL.csproj"
+            "/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/CustomerAppBLL.csproj": {
+              "projectPath": "/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/CustomerAppBLL.csproj"
             }
           }
         }

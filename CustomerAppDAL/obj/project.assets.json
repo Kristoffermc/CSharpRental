@@ -3396,10 +3396,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppDAL/CustomerAppDAL.csproj",
+      "projectUniqueName": "/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/CustomerAppDAL.csproj",
       "projectName": "CustomerAppDAL",
-      "projectPath": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppDAL/CustomerAppDAL.csproj",
-      "outputPath": "/Users/Kristoffers/Projects/CSharpArcitecture2017-master/CustomerAppDAL/obj",
+      "projectPath": "/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/CustomerAppDAL.csproj",
+      "outputPath": "/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/obj",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp2.0"
