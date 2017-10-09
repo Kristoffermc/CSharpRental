@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{ECC4D19F-65C7-4F7D-8AB0-9C47B5239F22}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CustomerRestAPIi/Startup.cs">
     <Files>
-      <File FileName="CustomerRestAPIi/Startup.cs" Line="30" Column="8" />
-      <File FileName="CustomerRestAPIi/Controllers/CustomersController.cs" Line="14" Column="32" />
+      <File FileName="CustomerRestAPIi/Controllers/CustomersController.cs" Line="14" Column="1" />
+      <File FileName="CustomerRestAPIi/Startup.cs" Line="38" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

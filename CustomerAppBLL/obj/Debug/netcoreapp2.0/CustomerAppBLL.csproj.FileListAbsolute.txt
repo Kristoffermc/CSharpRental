@@ -1,0 +1,11 @@
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/bin/Debug/netcoreapp2.0/CustomerAppBLL.deps.json
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/bin/Debug/netcoreapp2.0/CustomerAppBLL.dll
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/bin/Debug/netcoreapp2.0/CustomerAppBLL.pdb
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/bin/Debug/netcoreapp2.0/CustomerAppDAL.dll
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/bin/Debug/netcoreapp2.0/CustomerAppDAL.pdb
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/obj/Debug/netcoreapp2.0/CustomerAppBLL.csprojResolveAssemblyReference.cache
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/obj/Debug/netcoreapp2.0/CustomerAppBLL.csproj.CoreCompileInputs.cache
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/obj/Debug/netcoreapp2.0/CustomerAppBLL.AssemblyInfoInputs.cache
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/obj/Debug/netcoreapp2.0/CustomerAppBLL.AssemblyInfo.cs
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/obj/Debug/netcoreapp2.0/CustomerAppBLL.dll
+/Users/Kristoffers/Projects/CSharpRental/CustomerAppBLL/obj/Debug/netcoreapp2.0/CustomerAppBLL.pdb

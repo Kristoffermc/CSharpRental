@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerRestAPIi.Controllers
 {
-    [Produces("application/json")]
     [EnableCors("MyPolicy")]
     [Route("api/[controller]")]
     public class CustomersController : Controller
