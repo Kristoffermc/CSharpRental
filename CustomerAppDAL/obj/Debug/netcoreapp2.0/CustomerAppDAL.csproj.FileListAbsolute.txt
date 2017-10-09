@@ -1,9 +1,0 @@
-/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/bin/Debug/netcoreapp2.0/CustomerAppDAL.deps.json
-/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/bin/Debug/netcoreapp2.0/CustomerAppDAL.dll
-/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/bin/Debug/netcoreapp2.0/CustomerAppDAL.pdb
-/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/obj/Debug/netcoreapp2.0/CustomerAppDAL.csprojResolveAssemblyReference.cache
-/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/obj/Debug/netcoreapp2.0/CustomerAppDAL.csproj.CoreCompileInputs.cache
-/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/obj/Debug/netcoreapp2.0/CustomerAppDAL.AssemblyInfoInputs.cache
-/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/obj/Debug/netcoreapp2.0/CustomerAppDAL.AssemblyInfo.cs
-/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/obj/Debug/netcoreapp2.0/CustomerAppDAL.dll
-/Users/Kristoffers/Projects/CSharpRental/CustomerAppDAL/obj/Debug/netcoreapp2.0/CustomerAppDAL.pdb

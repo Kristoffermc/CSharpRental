@@ -26,6 +26,12 @@ namespace CustomerRestAPIi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddCors(o => o.AddPolicy("MyPolicy",
+            builder => {builder.WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,29 +45,7 @@ namespace CustomerRestAPIi
                 app.UseDeveloperExceptionPage();
                 var facade = new BLLFacade();
 
-                /*var address = facade.AddressService.Create(
-                    new AddressBO()
-                    {
-                        City = "Skagen",
-                        Street = "Skagenvej",
-                        Number = "1"
-                    });
 
-                var address2 = facade.AddressService.Create(
-                    new AddressBO()
-                    {
-                        City = "Esbjerg",
-                        Street = "Nygårdsvej",
-                        Number = "200"
-                    });
-
-                var address3 = facade.AddressService.Create(
-                    new AddressBO()
-                    {
-                        City = "Tjæreborg",
-                        Street = "Upsvej",
-                        Number = "122a"
-                    });*/
             }
 
             app.UseMvc();
