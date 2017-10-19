@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerRestAPIi.Controllers
 {
+    [EnableCors("MyPolicy")]
     [Produces("application/json")]
     [Route("api/addresses")]
     public class AddressController : Controller
