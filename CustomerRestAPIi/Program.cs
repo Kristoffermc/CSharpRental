@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using CustomerRestAPI;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -20,7 +21,7 @@ namespace CustomerRestAPIi
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                    .CaptureStartupErrors(true)
-                .UseStartup<Startup>()
+                   .UseStartup<Startup>()
                 .Build();
     }
 }

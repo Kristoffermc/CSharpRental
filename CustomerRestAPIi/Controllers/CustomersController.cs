@@ -5,32 +5,34 @@ using System.Threading.Tasks;
 using CustomerAppBLL;
 using CustomerAppBLL.BusinessObjects;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace CustomerRestAPIi.Controllers
+namespace CustomerRestAPI.Controllers
 {
     [EnableCors("MyPolicy")]
+    [Produces("application/json")]
     [Route("api/[controller]")]
     public class CustomersController : Controller
     {
         BLLFacade facade = new BLLFacade();
-        // GET: api/values
+        // GET: api/Customers
         [HttpGet]
         public IEnumerable<CustomerBO> Get()
         {
+
             return facade.CustomerService.GetAll();
         }
 
-        // GET api/values/5
+        // GET: api/Customers/5
         [HttpGet("{id}")]
         public CustomerBO Get(int id)
         {
             return facade.CustomerService.Get(id);
         }
 
-        // POST api/values
+        // POST: api/Customers
         [HttpPost]
         public IActionResult Post([FromBody]CustomerBO cust)
         {
@@ -41,13 +43,14 @@ namespace CustomerRestAPIi.Controllers
             return Ok(facade.CustomerService.Create(cust));
         }
 
-        // PUT api/values/5
+        //      api/ControllerName/id
+        // PUT: api/Customers/5
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody]CustomerBO cust)
         {
             if (id != cust.Id)
             {
-                return BadRequest("Path ID does not match customer ID in json object");
+                return BadRequest("I AM LIVEEE");
             }
             try
             {
@@ -61,12 +64,11 @@ namespace CustomerRestAPIi.Controllers
 
         }
 
-        // DELETE api/values/5
+        // DELETE: api/Customers/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
             facade.CustomerService.Delete(id);
         }
-
     }
 }
