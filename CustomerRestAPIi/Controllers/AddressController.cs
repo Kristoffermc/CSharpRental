@@ -1,6 +1,7 @@
 ﻿using System;
 using CustomerAppBLL;
 using CustomerAppBLL.BusinessObjects;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CustomerRestAPIi.Controllers
