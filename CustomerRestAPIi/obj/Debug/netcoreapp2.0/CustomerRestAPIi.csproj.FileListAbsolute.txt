@@ -1,4 +1,3 @@
-/Users/Kristoffers/Projects/CSharpRental/CustomerRestAPIi/bin/Debug/netcoreapp2.0/libe_sqlite3.dylib
 /Users/Kristoffers/Projects/CSharpRental/CustomerRestAPIi/bin/Debug/netcoreapp2.0/CustomerRestAPIi.deps.json
 /Users/Kristoffers/Projects/CSharpRental/CustomerRestAPIi/bin/Debug/netcoreapp2.0/CustomerRestAPIi.runtimeconfig.json
 /Users/Kristoffers/Projects/CSharpRental/CustomerRestAPIi/bin/Debug/netcoreapp2.0/CustomerRestAPIi.runtimeconfig.dev.json
