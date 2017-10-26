@@ -8,7 +8,7 @@ namespace CustomerRestAPIi.Controllers
 {
     [EnableCors("MyPolicy")]
     [Produces("application/json")]
-    [Route("api/addresses")]
+    [Route("api/[controller]")]
     public class AddressController : Controller
     {
 
